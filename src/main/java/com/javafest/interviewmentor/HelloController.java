@@ -7,8 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     // Define a GET route at "/hello"
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String sayHello() {
         return "Hello, Interview Mentor!";
+    }
+    @GetMapping("/")
+    public String home() {
+        return "Welcome to Interview Mentordsdsf API!flkdjf kljsf";
     }
 }
